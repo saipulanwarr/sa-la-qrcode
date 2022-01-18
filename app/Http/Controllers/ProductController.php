@@ -14,6 +14,11 @@ class ProductController extends Controller
         ]);
     }
 
+    public function test()
+    {
+        return 'test';
+    }
+
     public function create()
     {
         return view('products.create');
